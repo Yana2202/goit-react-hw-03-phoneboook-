@@ -19,6 +19,7 @@ const Filter = ({ value, onChange }) => (
   </>
 );
 
+
 Filter.propTypes = {
   value: PropTypes.string,
   onChange: PropTypes.func,
