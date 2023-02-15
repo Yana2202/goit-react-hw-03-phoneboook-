@@ -1,0 +1,43 @@
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.formLabel {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.inputForm {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+  width: 230px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+}
+
+.btnForm {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btnForm:hover {
+  background-color: aquamarine;
+}
